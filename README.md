@@ -65,6 +65,10 @@ Data types are  divided into two categories.
 
 **Arithmetic Operators -->** + , - , / , * , ** , %
 
+** --> Exponential Operator  (2**5 = 2<sup>5</sup>)
+% --> Modulus Operator (To find the remainder)
+
+
 
 
 
