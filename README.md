@@ -45,9 +45,9 @@ Data types are  divided into two categories.
 
 ## Conversion
 
-**Type Conversion** = To convert one type of data into another tyoe of data.
+**Type Conversion** = To convert one type of data into another type of data.
 
-```
+``` js
      let score =                        // "77" || "77abc" || null || undefined
      let valueINNumber = Number(score)  // ----    --------   ----    ---------
      console.log(valueINNumber)          // 77  ||   NaN   ||  0   ||   NaN
