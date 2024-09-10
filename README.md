@@ -76,6 +76,12 @@ Data types are  divided into two categories.
 > a = xy ----> Invalid  
 > a = x * y ----> Valid
 
+``` js
+console.log(+true);     // 1
+console.log(true+);     // error
+console.log(+"");       // 0
+```
+
 
 
 
