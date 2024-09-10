@@ -138,22 +138,36 @@ let user = {
 
 let anotheruser = user ;
 
-console.log("User name :",user.name);                                     // Abhi
-console.log("User StudentId :",user.studentId);                           // 123456
+console.log("User name :",user.name);                                     // User name : Abhi
+console.log("User StudentId :",user.studentId);                           // User StudentId : 123456
 
-console.log("anotherUser name :",anotheruser.name);                       // Abhi
-console.log("anotherUser StudentId :",anotheruser.studentId);             // 123456
+console.log("anotherUser name :",anotheruser.name);                       // anotherUser name : Abhi
+console.log("anotherUser StudentId :",anotheruser.studentId);             // anotherUser StudentId : 123456
 
 
 anotheruser.name = "Sachin";                                             
 anotheruser.studentId = 789456;
 
 
-console.log("User name :",user.name);                                      // Sachin
-console.log("User StudentId :",user.studentId);                            // 789456
+console.log("User name :",user.name);                                      // User name : Sachin
+console.log("User StudentId :",user.studentId);                            // User StudentId : 789456
 
-console.log("anotherUser name :",anotheruser.name);                        // Sachin 
-console.log("anotherUser StudentId :",anotheruser.studentId);              // 789456
+console.log("anotherUser name :",anotheruser.name);                        // anotherUser name : Sachin 
+console.log("anotherUser StudentId :",anotheruser.studentId);              // anotherUser StudentId : 789456
+```
+**<------------------------- HEAP DIAGRAM ------------------------->**
+
+## String
+
+> [!NOTE]
+> String is immutable ( something that cannot be changed. )
+
+``` js
+let name = "Abhishek";
+let repo = 5;
+
+console.log(`My name is ${name} and repocount is ${repo}`);        // My name is Abhishek and repocount is 5  ---> { Template Literals }
+console.log(name,repo);                                            // Abhishek 5
 ```
 
 
