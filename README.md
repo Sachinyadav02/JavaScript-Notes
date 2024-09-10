@@ -39,9 +39,9 @@ Data types are  divided into two categories.
 
 **2. Non - Premitive Data Type** (Reference) (call by reference ( When called, an address is returned.))
 
-* Object       **typeof --> object
-* Array         **typeof --> object
-* Function     **typeof --> function
+* Object  &nbsp&nbsp     **typeof --> object
+* Array   &nbsp&nbsp      **typeof --> object
+* Function  &nbsp&nbsp   **typeof --> function
 
 
 
