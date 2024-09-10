@@ -33,15 +33,15 @@ Data types are  divided into two categories.
 - Bigint --> `const num = 123456789n`
 - Boolean --> true/false
 - String --> " "
-- Null --> standalone value    `**typeof -->object**`
-- Undefined --> A variable that has not been assigned a value is undefined.    ` **typeof --> undefined**`
+- Null --> standalone value &nbsp; &nbsp;`**typeof -->object**`
+- Undefined --> A variable that has not been assigned a value is undefined.&nbsp; &nbsp; ` **typeof --> undefined**`
 - Symbol --> unique
 
 **2. Non - Premitive Data Type** (Reference) (call by reference ( When called, an address is returned.))
 
-* Object  &nbsp; &nbsp;    **typeof --> object
-* Array   &nbsp; &nbsp;      **typeof --> object
-* Function  &nbsp; &nbsp;   **typeof --> function
+* Object &nbsp; &nbsp; **typeof --> object
+* Array &nbsp; &nbsp; **typeof --> object
+* Function &nbsp; &nbsp; **typeof --> function
 
 
 
