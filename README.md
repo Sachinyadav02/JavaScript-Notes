@@ -33,8 +33,10 @@ Data types are  divided into two categories.
 - Bigint --> `const num = 123456789n`
 - Boolean --> true/false
 - String --> " "
-- Null --> standalone value       **typeof -->object**
-- Undefined --> A variable that has not been assigned a value is undefined.      **typeof --> undefined**
+- Null --> standalone value
+           **typeof -->object**
+- Undefined --> A variable that has not been assigned a value is undefined.
+            **typeof --> undefined**
 - Symbol --> unique
 
 
