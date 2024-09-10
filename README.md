@@ -17,9 +17,7 @@ There are 3 types of Variables.
 
 - const
 
-- var
->  [!WARNING]
-> Prefer not to use var because of issue in block scope and functional scope
+- var >  [!WARNING] > Prefer not to use var because of issue in block scope and functional scope
 
 
 
