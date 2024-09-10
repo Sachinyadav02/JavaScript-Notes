@@ -29,7 +29,7 @@ Data types are  divided into two categories.
 
 **1. Premitive Data Type** (Call by value)
 
-- Number --> range (2^53)
+- Number --> range (2^{53})
 - Bigint --> const num = 123456789n
 - Boolean --> true/false
 - String --> " "
