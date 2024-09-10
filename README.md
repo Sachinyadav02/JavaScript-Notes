@@ -122,7 +122,8 @@ anothername = "Sachin"
 console.log(name);                  // Abhi
 console.log(anothername);           // Sachin
 ```
-
+![Stack11 (1)](https://github.com/user-attachments/assets/236486e5-0484-4704-b9dd-05e941a9bc02)
+![Heap11 (1)](https://github.com/user-attachments/assets/89f79167-d9fb-41bc-bfb7-4215d32f7480)
 
 
 
