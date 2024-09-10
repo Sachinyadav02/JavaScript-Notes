@@ -19,5 +19,17 @@ There are 3 types of Variables.
 >  [!WARNING]
 > Prefer not to use var because of issue in block scope and functional scope
 
+## Data Type
+
+It specifies the type of data that the variable can store.
+
+### Types of Data Type
+
+Data types are  divided into two categories.
+
+**1. Premitive Data Type** (Call by value)
+
+- Number
+
 
 
