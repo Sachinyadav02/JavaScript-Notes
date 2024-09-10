@@ -61,9 +61,9 @@ Data types are  divided into two categories.
      console.log(booleanIsLoggedIn)                 true || false ||  true  || false
 ```
 
-## Operations
+## Arithmetic Operators in JS
 
-**+ , - , / , * , ** , % **
+**Arithmetic Operators -->** + , - , / , * , ** , %
 
 
 
