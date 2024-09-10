@@ -39,9 +39,23 @@ Data types are  divided into two categories.
 
 **2. Non - Premitive Data Type** (Reference) (call by reference ( When called, an address is returned.))
 
-* Object &nbsp; &nbsp; &nbsp; **typeof --> object
-* Array &nbsp; &nbsp; &nbsp; **typeof --> object
-* Function &nbsp; &nbsp; **typeof --> function
+- Object &nbsp; &nbsp; &nbsp; `**typeof --> object`
+- Array &nbsp; &nbsp; &nbsp; `**typeof --> object`
+- Function &nbsp; &nbsp; `**typeof --> function`
+
+## Conversion
+
+**Type Conversion** = To convert one type of data into another tyoe of data.
+
+````
+     let score =                         "77" || "77abc" || null || undefined
+     let valueINNumber = Number(score)   ----    --------   ----    ---------
+     console.log(valueINNumber)           77  ||   NaN   ||  0   ||   NaN
+
+     let isLoggedIn =                               1    ||   0   || "sidd" || ""                        
+     let booleanIsLoggedIn = Boolean(isLoggedIn)    ---     -----    ------    ---
+     console.log(booleanIsLoggedIn)                 true || false ||  true  || false
+```
 
 
 
