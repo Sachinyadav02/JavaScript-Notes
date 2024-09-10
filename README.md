@@ -71,7 +71,7 @@ Data types are  divided into two categories.
 ![Operator2 (1)](https://github.com/user-attachments/assets/643b614f-74cf-4908-a370-97c6d4f7a5a6)
 
 > [!NOTE]
-> No operator is assumed to be present.
+> No operator is assumed to be present.  
 > Example -->  
 > a = xy ----> Invalid  
 > a = x * y ----> Valid
