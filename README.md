@@ -74,7 +74,7 @@ Data types are  divided into two categories.
 > No operator is assumed to be present.
 
 > Example --> a = xy ----> Invalid  
->             a = x * y ----> Valid
+> &nbsp; &nbsp;a = x * y ----> Valid
 
 
 
