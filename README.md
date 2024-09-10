@@ -104,6 +104,24 @@ console.log(undefined >= 0);   //false
 > [!NOTE]
 > **===** --> Strict Check
 
+## Stack and Heap Memory Allocation in JS
+
+### 1. Stack Memory
+A Stack is a linear data structure that follows a particular order in which the operations are performed.
+The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
+``` js
+let name = "Abhi";
+let anothername = name;
+
+console.log(name);                  // Abhi
+console.log(anothername);           // Abhi
+
+anothername = "Sachin"
+
+console.log(name);                  // Abhi
+console.log(anothername);           // Sachin
+```
 
 
 
