@@ -123,7 +123,7 @@ anothername = "Sachin"
 console.log(name);                  // Abhi
 console.log(anothername);           // Sachin
 ```
-**STACK DIAGRAM**
+**<------------------------- STACK DIAGRAM ------------------------->**
 
 ### 1. Heap Memory
 
