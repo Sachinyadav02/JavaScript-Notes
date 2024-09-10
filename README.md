@@ -70,7 +70,7 @@ To perform mathematical calculation between variables and values.
 ** --> Exponential Operator &nbsp; &nbsp; { 2**5 = 2<sup>5</sup> }  
 % --> Modulus Operator  &nbsp; &nbsp;{ To find the remainder }
 
-![Operator2 (1)](https://github.com/user-attachments/assets/643b614f-74cf-4908-a370-97c6d4f7a5a6)![Variable in JS 2](https://github.com/user-attachments/assets/c2a0c0a1-e976-4583-ac15-f6ed5243f71d)
+![Operator2 (1)](https://github.com/user-attachments/assets/643b614f-74cf-4908-a370-97c6d4f7a5a6)
 
 > [!NOTE]
 > No operator is assumed to be present.  
