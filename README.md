@@ -27,7 +27,7 @@ It specifies the type of data that the variable can store.
 
 Data types are  divided into two categories.
 
-**1. Premitive Data Type** (Call by value)
+**1. Premitive Data Type** (call by value ( When called, a copy is returned.))
 
 - Number --> range (2<sup>53</sup>)
 - Bigint --> `const num = 123456789n`
@@ -36,6 +36,29 @@ Data types are  divided into two categories.
 - Null --> standalone value    `**typeof -->object**`
 - Undefined --> A variable that has not been assigned a value is undefined.    ` **typeof --> undefined**`
 - Symbol --> unique
+
+**2. Non - Premitive Data Type** (Reference) (call by reference ( When called, an address is returned.))
+
+- Object       **typeof --> object
+- Array         **typeof --> object
+- Function     **typeof --> function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
