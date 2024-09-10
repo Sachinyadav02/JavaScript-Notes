@@ -68,7 +68,10 @@ Data types are  divided into two categories.
 ** --> Exponential Operator &nbsp; &nbsp; { 2**5 = 2<sup>5</sup> }  
 % --> Modulus Operator  &nbsp; &nbsp;{ To find the remainder }
 
-![Operator2](https://github.com/user-attachments/assets/0038d830-fe4d-408c-83a4-dbc244180f85)
+<img src="![Operator2](https://github.com/user-attachments/assets/0038d830-fe4d-408c-83a4-dbc244180f85)" alt="image" width="50" height="30"/>
+
+
+
 
 
 
