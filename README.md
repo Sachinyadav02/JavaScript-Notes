@@ -63,6 +63,8 @@ Data types are  divided into two categories.
 
 ## Arithmetic Operators in JS
 
+To perform mathematical calculation between variables and values.
+
 **Arithmetic Operators -->** &nbsp; &nbsp;   + , - , / , * , ** , %
 
 ** --> Exponential Operator &nbsp; &nbsp; { 2**5 = 2<sup>5</sup> }  
@@ -81,6 +83,24 @@ console.log(+true);     // 1
 console.log(true+);     // error
 console.log(+"");       // 0
 ```
+
+## Comparison Operators
+
+To determine equality or difference between variables or values.
+
+**Arithmetic Operators -->** &nbsp; &nbsp; < , > , <= , >= , == , !=
+
+``` js
+console.log("2">1);          //true
+console.log("02">1);         //true
+console.log(null>0);         //false
+console.log(null==0);        //false
+console.log(null>=0);        //true
+console.log(undefined>0);    //false
+console.log(undefined==0);   //false
+console.log(undefined>=0);   //false
+```
+
 
 
 
