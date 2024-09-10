@@ -13,11 +13,11 @@ JavaScript is an object oreiented , general purpose and high level programming l
 
 There are 3 types of Variables.
 
-- let
-
-- const
-
-- var >  [!WARNING] > Prefer not to use var because of issue in block scope and functional scope
+- **let**
+- **const** ==> (ERROR assignment to const variable (Can't change variables once value is assigned))
+- **var**
+>  [!WARNING]
+> Prefer not to use var because of issue in block scope and functional scope
 
 
 
