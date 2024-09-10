@@ -6,5 +6,6 @@ JavaScript is an object oreiented , general purpose and high level programming l
 
 ## Variables
  The name of memory location that we use to store data.
-![Radha Krishna blue desktop_laptop wallpaper aesthetic](https://github.com/user-attachments/assets/ab89f9ed-f513-4261-9498-c57a0fed489a)
+ 
+![Variable in JS](https://github.com/user-attachments/assets/0fe3b1b5-718e-4196-8be1-bbff8c1f63ab)
 
