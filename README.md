@@ -48,13 +48,13 @@ Data types are  divided into two categories.
 **Type Conversion** = To convert one type of data into another type of data.
 
 ``` js
-     let score =                        // "77" || "77abc" || null || undefined
-     let valueINNumber = Number(score)  // ----    --------   ----    ---------
-     console.log(valueINNumber)          // 77  ||   NaN   ||  0   ||   NaN
+     let score =                         "77" || "77abc" || null || undefined
+     let valueINNumber = Number(score)   ----    --------   ----    ---------
+     console.log(valueINNumber)          77  ||   NaN   ||  0   ||   NaN
 
-     let isLoggedIn =                              // 1    ||   0   || "sidd" || ""                        
-     let booleanIsLoggedIn = Boolean(isLoggedIn)   // ---     -----    ------    ---
-     console.log(booleanIsLoggedIn)                // true || false ||  true  || false
+     let isLoggedIn =                               1    ||   0   || "sidd" || ""                        
+     let booleanIsLoggedIn = Boolean(isLoggedIn)    ---     -----    ------    ---
+     console.log(booleanIsLoggedIn)                 true || false ||  true  || false
 ```
 
 
