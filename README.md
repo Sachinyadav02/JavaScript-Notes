@@ -27,7 +27,7 @@ It specifies the type of data that the variable can store.
 
 Data types are  divided into two categories.
 
-###1. Premitive Data Type (call by value ( When called, a copy is returned.))
+### 1. Premitive Data Type (call by value ( When called, a copy is returned.))
 
 - Number --> range (2<sup>53</sup>)
 - Bigint --> `const num = 123456789n`
