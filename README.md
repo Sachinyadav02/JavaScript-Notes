@@ -63,7 +63,7 @@ Data types are  divided into two categories.
 
 ## Operations
 
-** + , - , / , * , % **
+__ __ + , - , / , * , ** , % __ __
 
 
 
