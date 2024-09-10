@@ -166,7 +166,7 @@ console.log("anotherUser StudentId :",anotheruser.studentId);              // an
 let name = "Abhishek";
 let repo = 5;
 
-console.log(`My name is ${name} and repocount is ${repo}`);        // My name is Abhishek and repocount is 5  ---> { Template Literals }
+console.log(`My name is ${name} and repocount is ${repo}`);        // My name is Abhishek and repocount is 5  {Template Literals}
 console.log(name,repo);                                            // Abhishek 5
 ```
 
