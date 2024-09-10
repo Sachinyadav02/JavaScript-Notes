@@ -177,6 +177,16 @@ let name = "Abhishek yadav"
 console.log(name[5]);       // h
 ```
 
+**Proto** = It give us property and methods of string.
+
+``` js
+let name = "Abhishek";
+let repo = 5;
+
+console.log(name.__proto__);     // Node ----> Empty object = {}
+                                 // Browser par sari properts and Methods deta hai
+```
+
 
 
 
