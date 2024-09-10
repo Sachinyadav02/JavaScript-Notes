@@ -159,8 +159,7 @@ console.log("anotherUser StudentId :",anotheruser.studentId);              // an
 
 ## String
 
-> [!NOTE]
-> String is immutable ( something that cannot be changed. )
+**Declaring of String**
 
 ``` js
 let name = "Abhishek";
@@ -173,7 +172,7 @@ console.log(name,repo);                                          // Abhishek 5
 **String Index** = which character is at which index.
 
 ``` js
-let name = "Abhishek yadav"
+let name = new String("Abhishek yadav")
 console.log(name[5]);       // h
 ```
 
@@ -187,8 +186,28 @@ console.log(name.__proto__);     // Node ----> Empty object = {}
                                  // Browser par sari properts and Methods deta hai
 ```
 
+**Properties and Methods of String** 
 
+``` js
+let userName = "Abhishek";
 
+console.log(userName.length);                // Length of string = 8 ------>(Poperty)
+console.log(userName.toUpperCase());         // Change all character into upper case = ABHISHEK   ----->(Method)
+console.log(userName.toLowerCase());         // Change all character into lower case = abhishek
+console.log(userName.charAt(2));            // Returns the character at the specified index = h
+console.log(userName.charCodeAt(0));        // Returns the character at the specified index. = 98 (Unicode / Ascii value)
+console.log(userName.indexOf("b"));
+```
+
+> [!NOTE]
+> String is immutable ( something that cannot be changed. )
+> ``` js
+> let name = "Sachin Yadav"
+> console.log(name);         // Sachin Yadav
+>
+> name[0] = "A"
+> console.log(name);        // Sachin Yadav
+> ```
 
 
 
