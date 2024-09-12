@@ -51,7 +51,7 @@ graph TB;
     position --> beforeEnd;
     position --> afterEnd;
     Document --> Remove_Element;
-    removeElement --> removeChild;
+    Remove_Element --> removeChild;
 
 
 ```
