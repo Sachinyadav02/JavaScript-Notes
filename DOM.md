@@ -32,7 +32,7 @@ graph TB;
 
 ## DOM MANIPULATION  
 
-
+**The HTML DOM Tree of Objects**
 
 ```mermaid
 graph TB;
@@ -71,10 +71,19 @@ graph TB;
 - document.getElementByClassName("myClass") &nbsp; &nbsp; &nbsp; // return HTML collection
 - document.getElementByTagName("p")
 - document.querySelector(".myclass")
-- document.querySelectorAll(".myclass") &nbsp; &nbsp; &nbsp; // return node list
+- document.querySelectorAll(".myclass") &nbsp; &nbsp; &nbsp; // return node list 
 
 >[!NOTE]
 > **Node list and HTML collection are not pure array (array like)**
+
+**2. Update Element**
+
+i. **innerHTML**
+
+``` js
+const button = documnet.querySelector("#btn")
+button.innerHTML = <p>hello jee <p/>
+```
 
 
 
