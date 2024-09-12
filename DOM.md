@@ -12,7 +12,7 @@
 graph TB;
     Window --> DOM;
     Window --> BOM;
-    Window --> Core JavaScript;
+    Window --> Core_JavaScript;
     
     Document --> html;
     html --> head;
@@ -20,4 +20,36 @@ graph TB;
     head --> title;
     body --> h1;
     body --> p;
+```
+
+## DOM MANIPULATION  
+
+**---> Manipulating HTML through JavaScript code**
+
+```mermaid
+graph TB;
+
+    Change_HTML --> Document;
+    Document --> Access;
+    Access --> getElementByID;
+    Access --> getElementByClassName;
+    Access --> getElementByTagName;
+    Access --> $0;
+    Document --> Update_Existing_Element;
+    Update_Existing_Element --> innerHTML;
+    Update_Existing_Element --> outerHTML;
+    Update_Existing_Element --> textContent;
+    Update_Existing_Element --> innerText;
+    Document --> Add_element;
+    Add_element --> Creation_Element;
+    Add_element --> .appendChild;
+    .appendChild --> insertAdjacentElement;
+    insertAdjacentElement --> position;
+    insertAdjacentElement --> HTMLcontent
+    position --> beforeBegin;
+    position --> afterBegin;
+    position --> beforeEnd;
+    position --> afterEnd;
+    Document --> Remove_Element;
+    removeElement --> removeChild;
 ```
