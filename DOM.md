@@ -1,5 +1,15 @@
 # JS DOM Manipulation 
 
+## What is DOM ?
+
+**---> Manipulating HTML through JavaScript code**
+
+I. The Document Object Model (DOM) in JavaScript is a programming interface that allows scripts to dynamically access and manipulate the content, structure, and style of HTML documents. 
+
+II. It represents the document as a tree of objects, where each node corresponds to a part of the document (such as elements, attributes, and text).
+
+
+
 **Window Obj ---> global Obj** &nbsp;  &nbsp;    (sab kuch window object ke ander ata hain sab isi ke child hain)
 
 **HTML code ---> Convert JavaScript Object  ---> Document**
@@ -24,7 +34,7 @@ graph TB;
 
 ## DOM MANIPULATION  
 
-**---> Manipulating HTML through JavaScript code**
+
 
 ```mermaid
 graph TB;
