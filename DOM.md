@@ -2,9 +2,9 @@
 
 **Window Obj ---> global Obj** &nbsp;  &nbsp;    (sab kuch window object ke ander ata hain sab isi ke child hain)
 
-**HTML code ---> convert javascript object  ---> document**
+**HTML code ---> Convert JavaScript Object  ---> Document**
 
-**HTML Tag  ---> Convert token ---> conver node ---> bunch of node is DOM**
+**HTML Tag  ---> Convert token ---> Convert node ---> Bunch of node is DOM**
 
 ## DOM Tree Structure
 
@@ -12,9 +12,9 @@
 graph TB;
     Window --> DOM;
     Window --> BOM;
-    Window --> CoreJavaScript;
+    Window --> Core JavaScript;
     
-    document --> html;
+    Document --> html;
     html --> head;
     html --> body;
     head --> title;
