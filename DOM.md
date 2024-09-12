@@ -55,9 +55,9 @@ graph TB;
 
 
 ```
-### 
+### How to Manipulate HTML through JavaScript code ?
 
-**Access Element** &nbsp; ---> &nbsp; We access elements by diffent methods.
+**1. Access Element** &nbsp; ---> &nbsp; We access elements by different methods.
 
 - documnet.getElementById("#myid")
 - document.getElementByClassName("myClass") &nbsp; &nbsp; &nbsp; // return HTML collection
