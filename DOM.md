@@ -55,3 +55,20 @@ graph TB;
 
 
 ```
+### 
+
+**Access Element** &nbsp; ---> &nbsp; We access elements by diffent methods.
+
+- documnet.getElementById("#myid")
+- document.getElementByClassName("myClass") &nbsp; &nbsp; &nbsp; // return HTML collection
+- document.getElementByTagName("p")
+- document.querySelector(".myclass")
+- document.querySelectorAll(".myclass") &nbsp; &nbsp; &nbsp; // return node list
+
+>[!NOTE]
+> **Node list and HTML collection are not pure array (array like)**
+
+
+
+
+
