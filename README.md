@@ -199,7 +199,7 @@ console.log(userName.charCodeAt(0));        // Returns the character at the spec
 console.log(userName.indexOf("b"));
 ```
 
-> [!VOTE]
+> [!NOTE]
 > String is immutable ( something that cannot be changed. )
 > ``` js
 > let name = "Sachin Yadav"
