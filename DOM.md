@@ -92,7 +92,9 @@ i. **innerHTML**
 let para  = documnet.querySelector("#para")
 para.innerHTML = "I am from Delhi"                   // I am from Delhi
 ```
-
+> [!NOTE]
+> **Console**
+> 'Hi my name is Abhishek Yadav.\n\t\t\t<span>I am 21 years old.</span> I like Programming , Chess , Cricket.\n\t\t'
 
 
 
