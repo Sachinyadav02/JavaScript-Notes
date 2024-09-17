@@ -80,9 +80,17 @@ graph TB;
 
 i. **innerHTML**
 
+-  It returns all text, including html tags, that is contained by an element.
+-  It will show the value and apply any HTML formatting
+
 ``` js
-const button = documnet.querySelector("#btn")
-button.innerHTML = <p>hello jee <p/>
+<p id="para">
+ Hi my name is Abhishek Yadav.
+ <span>I am 21 years old.</span> I like Programming , Chess , Cricket.
+</p>
+
+let para  = documnet.querySelector("#para")
+para.innerHTML = "I am from Delhi"                   // I am from Delhi
 ```
 
 
