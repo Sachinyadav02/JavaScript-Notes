@@ -211,7 +211,7 @@ console.log(userName.indexOf("b"));         // Returns the position of the first
 
 ## Numbers
 
-**Declaring of Numbers** --> 2 Ways to declare Numbers in JS.  
+**Declaring of Numbers** &nbsp; --> 2 Ways to declare Numbers in JS.  
 
 --> 1st Way to declare Number
 
@@ -224,6 +224,28 @@ console.log(score)         // 400   {typeof = number}
 ``` js
 const balance = new Number(100)
 console.log(balance)        // node [Number: 400]  // browser Number {400} [[Prototype]]: Number [[PrimitiveValue]]: 400
+```
+
+**Methods in Numbers**
+
+``` js
+const num = 112307.856;
+
+console.log(num.toExponential(5));              // 1.12308e+5
+console.log(num.toFixed(6));                    // 112307.856000
+console.log(num.toLocaleString("en-US"));       // 112,307.856
+console.log(num.toPrecision(6));                // 112308
+console.log(num.toString().length);             // 10
+console.log(num.valueOf(2));                    // 112307.856
+```
+- Checking if values are finite, integers, or NaN
+
+``` js
+const num = 112307.856;
+
+console.log(Number.isFinite(num));               // true
+console.log(Number.isInteger(num));              // false
+console.log(Number.isNaN(num));                  // false
 ```
 
 
