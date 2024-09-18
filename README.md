@@ -211,16 +211,22 @@ console.log(userName.indexOf("b"));         // Returns the position of the first
 
 ## Numbers
 
-**Declaring of Numbers** --> 2 Ways to declare Numbers in JS.
+**Declaring of Numbers** --> 2 Ways to declare Numbers in JS.  
+
+--> 1st Way to declare Number
 
 ``` js
-   const score = 400
-    console.log(score)         // 400   {typeof = number}
-
-    const balance = new Number(100)
-    console.log(balance)        // node [Number: 400]  // browser Number {400} [[Prototype]]: Number [[PrimitiveValue]]: 400
-
+const score = 400
+console.log(score)         // 400   {typeof = number}
 ```
+--> 2nd Way to declare Number
+
+``` js
+const balance = new Number(100)
+console.log(balance)        // node [Number: 400]  // browser Number {400} [[Prototype]]: Number [[PrimitiveValue]]: 400
+```
+
+
 
 
 
