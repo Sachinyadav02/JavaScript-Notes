@@ -281,7 +281,7 @@ It is Object.
 
 ## Dates
 
-It is Object in JavaScript
+It is Object in JavaScript.  
 Month in JavaScript starts with Zero (0).
 
 ```js
