@@ -208,7 +208,7 @@ console.log(userName.indexOf("b"));
 > name[0] = "A"
 > console.log(name);        // Sachin Yadav
 > ```
-https://res.cloudinary.com/duee297zm/image/upload/v1726690591/e80hdpmxw3vabsd6xwrc.webp
+https://res.cloudinary.com/duee297zm/image/upload/v1726690591/e80hdpmxw3vabsd6xwrc.jpeg
 
 
 
