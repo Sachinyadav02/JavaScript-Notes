@@ -269,9 +269,8 @@ It is used to perform mathematical operations on numbers.
       console.log(Math.floor(Math.ramdom()*10)+1))  // return without decimal  
 ```
 
-> [!FORMULA]
-> 
-> ** Random values between any number**
+> [!TIP]
+> **FORMULA** &nbsp; --> Random values between any two numbers
 > 
 > ``` js
 > const min = 10
