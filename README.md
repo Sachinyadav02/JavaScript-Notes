@@ -196,7 +196,7 @@ console.log(userName.toUpperCase());         // Change all character into upper 
 console.log(userName.toLowerCase());         // Change all character into lower case = abhishek
 console.log(userName.charAt(2));            // Returns the character at the specified index = h
 console.log(userName.charCodeAt(0));        // Returns the character at the specified index. = 98 (Unicode / Ascii value)
-console.log(userName.indexOf("b"));
+console.log(userName.indexOf("b"));         // Returns the position of the first occurrence of a substring = 1
 ```
 
 > [!NOTE]
@@ -208,9 +208,6 @@ console.log(userName.indexOf("b"));
 > name[0] = "A"
 > console.log(name);        // Sachin Yadav
 > ```
-https://res.cloudinary.com/duee297zm/image/upload/v1726690591/e80hdpmxw3vabsd6xwrc.jpeg
-
-
 
 
 
