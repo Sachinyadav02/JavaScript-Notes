@@ -238,7 +238,8 @@ console.log(num.toPrecision(6));                // 112308
 console.log(num.toString().length);             // 10
 console.log(num.valueOf(2));                    // 112307.856
 ```
-- Checking if values are finite, integers, or NaN
+
+**Checking if values are finite, integers, or NaN**
 
 ``` js
 const num = 112307.856;
