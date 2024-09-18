@@ -270,6 +270,7 @@ It is used to perform mathematical operations on numbers.
 ```
 
 > [!FORMULA]
+> 
 > ** Random values between any number**
 > 
 > ``` js
