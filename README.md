@@ -208,7 +208,7 @@ console.log(userName.indexOf("b"));
 > name[0] = "A"
 > console.log(name);        // Sachin Yadav
 > ```
-
+cloudinary.v2.uploader.upload.w=100('Heap1.webp', {folder: '',resource_type: 'image'}).then(console.log);
 
 
 
