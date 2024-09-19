@@ -311,7 +311,8 @@ console.log(Number.isNaN(num));                  // false
 
 ## Arrays
 
-- Array is a data stucture in which we store similar or dissimilar data.
+- Array is a data stucture in which we storing a collection of multiple items under a single variable name.
+- JS Arrays are resizable and can contain a mix of different data types.
 - It is Non - Primitive data type.
 - It is Heap Memory.
 - Array store data on 0 base indexing.
