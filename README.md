@@ -363,14 +363,14 @@ console.log(myArray)                                    // Output : [ 'Abhi', 'S
 **(b)** Adding and Removing of Elements in Start
 
 ``` js
-const myArray3 = ["Abhi" , "Sagar" , "Raj"];
-console.log(myArray3);                              // Output : [ 'Abhi', 'Sagar', 'Raj' ]
+const myArray = ["Abhi" , "Sagar" , "Raj"];
+console.log(myArray);                              // Output : [ 'Abhi', 'Sagar', 'Raj' ]
 
-myArray3.unshift("Siddharth");                      // Adding
-console.log(myArray3);                              // Output : [ 'Siddharth', 'Abhi', 'Sagar', 'Raj' ]
+myArray.unshift("Siddharth");                      // Adding
+console.log(myArray);                              // Output : [ 'Siddharth', 'Abhi', 'Sagar', 'Raj' ]
 
-myArray3.shift();                                  // Removing
-console.log(myArray3);                             // Output : [ 'Abhi', 'Sagar', 'Raj' ]
+myArray.shift();                                  // Removing
+console.log(myArray);                             // Output : [ 'Abhi', 'Sagar', 'Raj' ]
 ```
 
 **(iii)** Accessing Elements
@@ -395,7 +395,19 @@ let element2 = myArray2.includes("Sagar");
 console.log(element2);                                // Output : true
 ```
 
+**(iv)**  Slice()
 
+- It Cut elements on the bases of index.
+- It is Immutable.
+- sclice(start,end)
+
+```js
+let myArray = [1,2,3,4,5,6,7,8,9];
+console.log(myArray);                      // Output : [1,2,3,4,5,6,7,8,9]
+
+let sliceArray = myArray.slice(2,7)
+console.log(sliceArray);                    // Output : [ 3, 4, 5, 6, 7 ]
+```
 
 
 
