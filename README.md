@@ -469,7 +469,52 @@ console.log(myArray);                                            // Output : ["A
 
 ### Array Advance Concepts
 
+#### Merging of Two Arrays
 
+--> 3 Ways/Methods to Merging two Arrays.
+
+**(i) `push()`** 
+
+- It adds new items to the end of an array.
+- It changes the length of the array.
+- It returns the new length.
+
+``` js
+const marvel_heros = ["thor", "Ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
+
+marvel_heros.push(dc_heros)
+
+console.log(marvel_heros);                 // Output : [ 'thor', 'Ironman', 'spiderman', [ 'superman', 'flash', 'batman' ] ]
+console.log(marvel_heros[3][1]);           // Output : flash
+```
+
+**(ii) `concat()`**
+
+- It concatenates (joins) two or more arrays.
+- It returns a new array, containing the joined arrays.
+- It does not change the existing arrays.
+- It is useful for combining arrays without modifying the originals.
+
+``` js
+const marvel_heros = ["thor", "Ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
+
+const allHeros = marvel_heros.concat(dc_heros)
+console.log(allHeros);                   // Output :  [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
+```
+
+**(iii) `Spread Operator`**
+
+- Spread Operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
+
+``` js
+const marvel_heros = ["thor", "Ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
+
+const all_new_heros = [...marvel_heros, ...dc_heros]
+console.log(all_new_heros);            // Output :  [ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
+```
 
 
 
