@@ -337,12 +337,72 @@ console.log(mynewArray);                                   // Output : [ 'Abhi',
 
 ### Properties and Methods of Array
 
-**(i)** No. Of element present in Array
+**(i)** No. of element present in Array
 
 ``` js
 const myArray = ["Abhi" , 1 , null , true , undefined] ;
 console.log(myArray.length);                                   // Output : 5
 ```
+
+**(ii)** Adding and Removing of Elements in Array
+
+- It is mutation (Changable) method
+
+**(a)** Adding of Elements in Last
+
+``` js
+const myArray = ["Abhi" , "Sagar" , "Raj"];
+console.log(myArray);                                   // Output : [ 'Abhi', 'Sagar', 'Raj' ]
+
+myArray.push("Siddharth");
+console.log(myArray);                                   // Output : [ 'Abhi', 'Sagar', 'Raj', 'Siddharth' ]
+```
+
+**(b)** Removing of Elements in Last
+
+``` js
+const myArray2 = ["Abhi" , "Sagar" , "Raj"];
+console.log(myArray2);                                   // Output : [ 'Abhi', 'Sagar', 'Raj' ]
+
+myArray2.pop();
+console.log(myArray2)                                    // Output :  [ 'Abhi', 'Sagar' ]
+```
+
+**(c)** Adding and Removing of Elements in Start
+
+``` js
+const myArray3 = ["Abhi" , "Sagar" , "Raj"];
+console.log(myArray3);                              // Output : [ 'Abhi', 'Sagar', 'Raj' ]
+
+myArray3.unshift("Siddharth");                      // Adding
+console.log(myArray3);                              // Output : [ 'Siddharth', 'Abhi', 'Sagar', 'Raj' ]
+
+myArray3.shift();                                  // Removing
+console.log(myArray3);                             // Output : [ 'Abhi', 'Sagar', 'Raj' ]
+```
+
+**(iii)** Accessing Elements
+
+- It is Immutation (Unchangeable) method
+
+**(a)** indexof() --> If present then it give index of that element. If not present give -1.
+**(b)** lastIndexOf() --> If present then it give last index of that element. If not present give -1.
+**(c)** include() --> It tell us presence and absence of element in T/F.
+
+``` js
+const myArray = ["Abhi" , "Sagar" , "Raj"];
+console.log(myArray);
+
+let element = myArray.indexOf("Sagar");
+console.log(element);                                 // Output : 1
+
+let element1 = myArray1.lastIndexOf("Sagar");
+console.log(element1);                                // Output : 3
+
+let element2 = myArray2.includes("Sagar");
+console.log(element2);                                // Output : true
+```
+
 
 
 
