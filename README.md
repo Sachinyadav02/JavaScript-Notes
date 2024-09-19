@@ -337,7 +337,7 @@ console.log(mynewArray);                                   // Output : [ 'Abhi',
 
 ### Properties and Methods of Array
 
-#### **(i) No. of element present in Array**
+**(i) No. of element present in Array**
 
 ``` js
 const myArray = ["Abhi" , 1 , null , true , undefined] ;
@@ -409,7 +409,63 @@ let sliceArray = myArray.slice(2,7)
 console.log(sliceArray);                    // Output : [ 3, 4, 5, 6, 7 ]
 ```
 
+**(v) Manipulating elements**
 
+- It is Mutable.
+
+**(a) splice()** --> Removes elements from array and, if necessary, inserts new elements in their place, returning the deleted elements.  
+
+ ``` js
+let myArray = [0,1,2,3,4,5,6,7,8,9];
+console.log(myArray);                                          // Output : [0,1,2,3,4,5,6,7,8,9]
+
+let spliceArray = myArray.splice(2,7,"Sagar","Raj");           
+console.log(spliceArray);                                      // Output : [ 2, 3, 4, 5, 6, 7, 8 ]
+
+console.log(myArray);                                          // Output : [ 0, 1, 'Sagar', 'Raj', 9 ]
+```
+**(b) sort()** --> {क्रम मे लगाना}  This method mutates the array and returns a reference to the same array. {Also work in Abcd}  
+``` js
+let myArray = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+console.log(myArray);                                          // Output : [9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+let sortArray = myArray.sort();           
+console.log(sortArray);                                      // Output : [1,2,3,4,5,6,7,8,9]
+```
+
+**(c) reverse()** --> {उल्टे क्रम मे लगाना} Reverses the elements in an array in place. This method mutates the array and returns a reference to the same array.  
+
+``` js
+let myArray = [1,2,3,4,5,6,7,8,9];
+console.log(myArray);                                          // Output : [1,2,3,4,5,6,7,8,9]
+
+let reverseArray = myArray.reverse();           
+console.log(reverseArray);                                      // Output : [9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
+
+**(d) fill(What , Start ,End)** --> Changes all array elements from start to end index to a static value and returns the modified array.  
+
+``` js
+let myArray = [1,2,3,4,5,6,7,8,9]
+console.log(myArray);                                          // Output : [1,2,3,4,5,6,7,8,9]
+
+let fillArray = myArray.fill("Raj",4,7);           
+console.log(fillArray);                                      // Output : [1,2,3,4,'Raj','Raj','Raj',8,9]
+```
+
+**(vi) Conversion of Array into String**
+
+- It is Immutable.
+
+``` js
+let myArray = ["Abhi","Siddhu","Raj","Sagar","Alok","Addi"]
+console.log(myArray);                                             // Output : ["Abhi","Siddhu","Raj","Sagar","Alok","Addi"]
+
+let convertedArray = myArray.join(",");
+console.log(convertedArray);                                     // Output : Abhi,Siddhu,Raj,Sagar,Alok,Addi
+
+console.log(myArray);                                            // Output : ["Abhi","Siddhu","Raj","Sagar","Alok","Addi"]
+```
 
 
 
