@@ -4,7 +4,7 @@
 
 JavaScript is an object oreiented , general purpose and high level programming language used in wesite's frontend , banckend and software application.
 
-## Variables
+## # Variables
  The name of memory location that we use to store data.
  
 ![Variable in JS 2](https://github.com/user-attachments/assets/c2a0c0a1-e976-4583-ac15-f6ed5243f71d)
@@ -19,7 +19,7 @@ There are 3 types of Variables.
 >  [!WARNING]
 > Prefer not to use var because of issue in block scope and functional scope
 
-## Data Type
+## # Data Type
 
 It specifies the type of data that the variable can store.
 
@@ -47,7 +47,7 @@ Data types are  divided into two categories.
 - Array &nbsp; &nbsp; &nbsp; `**typeof --> object`
 - Function &nbsp; &nbsp; `**typeof --> function`
 
-## Conversion
+## # Conversion
 
 **Type Conversion** = To convert one type of data into another type of data.
 
@@ -61,7 +61,7 @@ Data types are  divided into two categories.
      console.log(booleanIsLoggedIn)                 true || false ||  true  || false
 ```
 
-## Arithmetic Operators in JS
+## # Arithmetic Operators in JS
 
 To perform mathematical calculation between variables and values.
 
@@ -84,7 +84,7 @@ console.log(true+);     // error
 console.log(+"");       // 0
 ```
 
-## Comparison Operators
+## # Comparison Operators
 
 To determine equality or difference between variables or values.
 
@@ -104,7 +104,7 @@ console.log(undefined >= 0);   //false
 > [!NOTE]
 > **===** --> Strict Check
 
-## Stack and Heap Memory Allocation in JS
+## # Stack and Heap Memory Allocation in JS
 
 ### 1. Stack Memory
 * A Stack is a linear data structure that follows a particular order in which the operations are performed.  
@@ -157,7 +157,7 @@ console.log("anotherUser StudentId :",anotheruser.studentId);              // an
 ```
 **<------------------------- HEAP DIAGRAM ------------------------->**
 
-## String
+## # String
 
 **Declaring of String**
 
@@ -209,7 +209,7 @@ console.log(userName.indexOf("b"));         // Returns the position of the first
 > console.log(name);        // Sachin Yadav
 > ```
 
-## Numbers
+## # Numbers
 
 **Declaring of Numbers** &nbsp; --> `2 Ways to declare Numbers in JS.`  
 
@@ -249,7 +249,7 @@ console.log(Number.isInteger(num));              // false
 console.log(Number.isNaN(num));                  // false
 ```
 
-## Maths
+## # Maths
 
 - It is used to perform mathematical operations on numbers.
 - It is Object.
@@ -279,7 +279,7 @@ console.log(Number.isNaN(num));                  // false
 > Math.floor(Math.random()*(max-min+1))+min       // return random number between 10 to 20
 > ```
 
-## Dates
+## # Dates
 
 - It is Object in JavaScript.  
 - Month in JavaScript starts with Zero (0).
@@ -309,7 +309,7 @@ console.log(Number.isNaN(num));                  // false
    newDate.toLocaleString('default',{weekday: "long"})
 ```
 
-## Arrays
+## # Arrays
 
 - Array is a data stucture in which we storing a collection of multiple items under a single variable name.
 - JS Arrays are resizable and can contain a mix of different data types.
