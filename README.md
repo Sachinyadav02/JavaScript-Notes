@@ -337,14 +337,14 @@ console.log(mynewArray);                                   // Output : [ 'Abhi',
 
 ### Properties and Methods of Array
 
-**(i)** No. of element present in Array
+**(i) No. of element present in Array**
 
 ``` js
 const myArray = ["Abhi" , 1 , null , true , undefined] ;
 console.log(myArray.length);                                   // Output : 5
 ```
 
-**(ii)** Adding and Removing of Elements in Array
+**(ii) Adding and Removing of Elements in Array**
 
 - It is mutation (Changable) method
 
@@ -373,7 +373,7 @@ myArray.shift();                                  // Removing
 console.log(myArray);                             // Output : [ 'Abhi', 'Sagar', 'Raj' ]
 ```
 
-**(iii)** Accessing Elements
+**(iii) Accessing Elements**
 
 - It is Immutation (Unchangeable) method
 
@@ -395,7 +395,7 @@ let element2 = myArray2.includes("Sagar");
 console.log(element2);                                // Output : true
 ```
 
-**(iv)**  Slice()
+**(iv) Slice()**
 
 - It Cut elements on the bases of index.
 - It is Immutable.
