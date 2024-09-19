@@ -1,6 +1,6 @@
 # JavaScript - Notes 
 
-## What is JavaScript ?
+## # What is JavaScript ?
 
 JavaScript is an object oreiented , general purpose and high level programming language used in wesite's frontend , banckend and software application.
 
