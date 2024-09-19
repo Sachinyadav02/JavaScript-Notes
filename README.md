@@ -348,7 +348,7 @@ console.log(myArray.length);                                   // Output : 5
 
 - It is mutation (Changable) method
 
-**(a)** Adding of Elements in Last
+**(a)** Adding and Removing of Elements in Last
 
 ``` js
 const myArray = ["Abhi" , "Sagar" , "Raj"];
@@ -356,19 +356,11 @@ console.log(myArray);                                   // Output : [ 'Abhi', 'S
 
 myArray.push("Siddharth");
 console.log(myArray);                                   // Output : [ 'Abhi', 'Sagar', 'Raj', 'Siddharth' ]
+
+myArray.pop();
+console.log(myArray)                                    // Output : [ 'Abhi', 'Sagar', 'Raj' ]
 ```
-
-**(b)** Removing of Elements in Last
-
-``` js
-const myArray2 = ["Abhi" , "Sagar" , "Raj"];
-console.log(myArray2);                                   // Output : [ 'Abhi', 'Sagar', 'Raj' ]
-
-myArray2.pop();
-console.log(myArray2)                                    // Output :  [ 'Abhi', 'Sagar' ]
-```
-
-**(c)** Adding and Removing of Elements in Start
+**(b)** Adding and Removing of Elements in Start
 
 ``` js
 const myArray3 = ["Abhi" , "Sagar" , "Raj"];
