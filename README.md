@@ -335,6 +335,15 @@ const mynewArray = new Array("Abhi" , 1 , null , true , undefined) ;
 console.log(mynewArray);                                   // Output : [ 'Abhi', 1, null, true, undefined ]
 ```
 
+### Properties and Methods of Array
+
+I No. Of element present in Array
+
+``` js
+const myArray = ["Abhi" , 1 , null , true , undefined] ;
+console.log(myArray.length);                                   // Output : 5
+```
+
 
 
 
