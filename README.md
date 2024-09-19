@@ -385,9 +385,9 @@ console.log(myArray3);                             // Output : [ 'Abhi', 'Sagar'
 
 - It is Immutation (Unchangeable) method
 
-**(a)** indexof() --> If present then it give index of that element. If not present give -1.  
-**(b)** lastIndexOf() --> If present then it give last index of that element. If not present give -1.  
-**(c)** include() --> It tell us presence and absence of element in T/F.  
+**(a)** indexof( ) --> If present then it give index of that element. If not present give -1.  
+**(b)** lastIndexOf( ) --> If present then it give last index of that element. If not present give -1.  
+**(c)** include( ) --> It tell us presence and absence of element in T/F.  
 
 ``` js
 const myArray = ["Abhi" , "Sagar" , "Raj"];
