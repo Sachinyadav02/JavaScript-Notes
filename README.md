@@ -211,7 +211,7 @@ console.log(userName.indexOf("b"));         // Returns the position of the first
 
 ## Numbers
 
-**Declaring of Numbers** &nbsp; --> 2 Ways to declare Numbers in JS.  
+**Declaring of Numbers** &nbsp; --> `2 Ways to declare Numbers in JS.`  
 
 --> 1st Way to declare Number
 
@@ -317,7 +317,7 @@ console.log(Number.isNaN(num));                  // false
 - It is Heap Memory.
 - Array store data on 0 base indexing.
 
-**Declaring of Arrays** &nbsp; --> 2 Ways to declare Arrays in JS.
+**Declaring of Arrays** &nbsp; --> `2 Ways to declare Arrays in JS.`
 
 --> 1st Way to declare Array
 
@@ -466,6 +466,8 @@ console.log(convertedArray);                                     // Output : Abh
 
 console.log(myArray);                                            // Output : ["Abhi","Siddhu","Raj","Sagar","Alok","Addi"]
 ```
+
+### Array Advance Concepts
 
 
 
