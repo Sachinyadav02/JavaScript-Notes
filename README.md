@@ -344,11 +344,11 @@ const myArray = ["Abhi" , 1 , null , true , undefined] ;
 console.log(myArray.length);                                   // Output : 5
 ```
 
-**(ii) Adding and Removing of Elements in Array**
+**(ii) `Adding and Removing of Elements in Array`**
 
 - It is mutation (Changable) method
 
-**(a)** Adding and Removing of Elements in Last
+**(a)** `Adding and Removing of Elements in Last`
 
 ``` js
 const myArray = ["Abhi" , "Sagar" , "Raj"];
@@ -360,7 +360,7 @@ console.log(myArray);                                   // Output : [ 'Abhi', 'S
 myArray.pop();
 console.log(myArray)                                    // Output : [ 'Abhi', 'Sagar', 'Raj' ]
 ```
-**(b)** Adding and Removing of Elements in Start
+**(b)** `Adding and Removing of Elements in Start`
 
 ``` js
 const myArray = ["Abhi" , "Sagar" , "Raj"];
@@ -373,13 +373,13 @@ myArray.shift();                                  // Removing
 console.log(myArray);                             // Output : [ 'Abhi', 'Sagar', 'Raj' ]
 ```
 
-**(iii) Accessing Elements**
+**(iii) `Accessing Elements`**
 
 - It is Immutation (Unchangeable) method
 
-**(a)** indexof( ) --> If present then it give index of that element. If not present give -1.  
-**(b)** lastIndexOf( ) --> If present then it give last index of that element. If not present give -1.  
-**(c)** include( ) --> It tell us presence and absence of element in T/F.  
+**(a)** `indexof( )` --> If present then it give index of that element. If not present give -1.  
+**(b)** `lastIndexOf( )` --> If present then it give last index of that element. If not present give -1.  
+**(c)** `include( )` --> It tell us presence and absence of element in T/F.  
 
 ``` js
 const myArray = ["Abhi" , "Sagar" , "Raj"];
@@ -395,7 +395,7 @@ let element2 = myArray2.includes("Sagar");
 console.log(element2);                                // Output : true
 ```
 
-**(iv) Slice()**
+**(iv) `Slice()`**
 
 - It Cut elements on the bases of index.
 - It is Immutable.
@@ -409,11 +409,11 @@ let sliceArray = myArray.slice(2,7)
 console.log(sliceArray);                    // Output : [ 3, 4, 5, 6, 7 ]
 ```
 
-**(v) Manipulating elements**
+**(v) `Manipulating elements`**
 
 - It is Mutable.
 
-**(a) splice()** --> Removes elements from array and, if necessary, inserts new elements in their place, returning the deleted elements.  
+**(a) `splice()`** --> Removes elements from array and, if necessary, inserts new elements in their place, returning the deleted elements.  
 
  ``` js
 let myArray = [0,1,2,3,4,5,6,7,8,9];
@@ -424,7 +424,7 @@ console.log(spliceArray);                                      // Output : [ 2, 
 
 console.log(myArray);                                          // Output : [ 0, 1, 'Sagar', 'Raj', 9 ]
 ```
-**(b) sort()** --> {क्रम मे लगाना}  This method mutates the array and returns a reference to the same array. {Also work in Abcd}  
+**(b) `sort()`** --> {क्रम मे लगाना}  This method mutates the array and returns a reference to the same array. {Also work in Abcd}  
 ``` js
 let myArray = [9, 8, 7, 6, 5, 4, 3, 2, 1];
 console.log(myArray);                                          // Output : [9, 8, 7, 6, 5, 4, 3, 2, 1]
@@ -433,7 +433,7 @@ let sortArray = myArray.sort();
 console.log(sortArray);                                      // Output : [1,2,3,4,5,6,7,8,9]
 ```
 
-**(c) reverse()** --> {उल्टे क्रम मे लगाना} Reverses the elements in an array in place. This method mutates the array and returns a reference to the same array.  
+**(c) `reverse()`** --> {उल्टे क्रम मे लगाना} Reverses the elements in an array in place. This method mutates the array and returns a reference to the same array.  
 
 ``` js
 let myArray = [1,2,3,4,5,6,7,8,9];
@@ -443,7 +443,7 @@ let reverseArray = myArray.reverse();
 console.log(reverseArray);                                      // Output : [9, 8, 7, 6, 5, 4, 3, 2, 1]
 ```
 
-**(d) fill(What , Start ,End)** --> Changes all array elements from start to end index to a static value and returns the modified array.  
+**(d) `fill(What , Start ,End)`** --> Changes all array elements from start to end index to a static value and returns the modified array.  
 
 ``` js
 let myArray = [1,2,3,4,5,6,7,8,9]
@@ -453,7 +453,7 @@ let fillArray = myArray.fill("Raj",4,7);
 console.log(fillArray);                                      // Output : [1,2,3,4,'Raj','Raj','Raj',8,9]
 ```
 
-**(vi) Conversion of Array into String**
+**(vi) `Conversion of Array into String`**
 
 - It is Immutable.
 
