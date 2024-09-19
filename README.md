@@ -337,7 +337,7 @@ console.log(mynewArray);                                   // Output : [ 'Abhi',
 
 ### Properties and Methods of Array
 
-**(i) No. of element present in Array**
+#### **(i) No. of element present in Array**
 
 ``` js
 const myArray = ["Abhi" , 1 , null , true , undefined] ;
