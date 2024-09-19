@@ -251,8 +251,8 @@ console.log(Number.isNaN(num));                  // false
 
 ## Maths
 
-It is used to perform mathematical operations on numbers.
-It is Object.
+- It is used to perform mathematical operations on numbers.
+- It is Object.
 
 ``` js
       console.log(Math);                 // node Object [Math] {}  // browser Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}
@@ -281,8 +281,8 @@ It is Object.
 
 ## Dates
 
-It is Object in JavaScript.  
-Month in JavaScript starts with Zero (0).
+- It is Object in JavaScript.  
+- Month in JavaScript starts with Zero (0).
 
 ```js
 
@@ -307,9 +307,32 @@ Month in JavaScript starts with Zero (0).
    console.log(newDate.getMonth())        //  7
 
    newDate.toLocaleString('default',{weekday: "long"})
-
 ```
 
+## Arrays
+
+- Array is a data stucture in which we store similar or dissimilar data.
+- It is Non - Primitive data type.
+- It is Heap Memory.
+- Array store data on 0 base indexing.
+
+**Declaring of Arrays** &nbsp; --> 2 Ways to declare Arrays in JS.
+
+--> 1st Way to declare Array
+
+``` js
+const myArray = ["Abhi" , 1 , null , true , undefined] ;
+console.log(myArray);                                        // Output : [ 'Abhi', 1, null, true, undefined ]
+
+console.log(myArray[3]);                                    // Output : true  (Access any element on the bases of thir index)
+```
+
+--> 2nd Way to declare Array through constroctor (object)
+
+``` js
+const mynewArray = new Array("Abhi" , 1 , null , true , undefined) ;
+console.log(mynewArray);                                   // Output : [ 'Abhi', 1, null, true, undefined ]
+```
 
 
 
