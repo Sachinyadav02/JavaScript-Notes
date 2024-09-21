@@ -184,37 +184,3 @@ console.log(email);            // Output : mail4sachinyadav@gmail.com
 let {name : userNmae} = obj1    // Chnge Key in Object
 console.log(userNmae);         // Output : Scahin
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
