@@ -39,7 +39,7 @@ console.log(obj.isLogin);        // Output : true
 console.log(obj);                // Output : { name: 'Scahin', stidentID: '123', email: 'mail4sachinyadav@gmail.com', isLogin: true }
 ```
 
-## How to store Symbol on Object ??
+## How to store Symbol in Object ??
 
 It is store by symbol key word.
 
