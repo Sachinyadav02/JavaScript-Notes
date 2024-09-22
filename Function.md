@@ -82,3 +82,49 @@ handleObject({                        // Output 2 : Username is Sachin and price
     price: 399
 })
 ```
+
+## Function Expression/Hoisting
+
+- Functions can be called before they are declared.
+- When function is stored in any variable then it can not be called before they are declared.
+
+``` js
+console.log(addone(5))          // Output : 6
+
+function addone(num){
+    return num + 1
+}
+
+
+console.log(addTwo(5))          // ReferenceError: Cannot access 'addTwo' before initialization
+
+const addTwo = function(num){
+    return num + 2
+}
+
+console.log(addTwo(5))          // Output : 6
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
